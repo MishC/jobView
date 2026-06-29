@@ -1,7 +1,7 @@
 import requests
 from .generate_token import generate_token
 
-FEED_URL = "https://pam-stilling-feed.nav.no/api/v1/feed"
+FEED_URL = "https://pam-stilling-feed.nav.no/api/v1/feed?municipal=BERGEN"
 
 def get_feed():
     token = generate_token()
